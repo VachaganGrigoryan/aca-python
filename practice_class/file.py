@@ -30,17 +30,3 @@ def read_all_text_files(folder_name):
 
 read_all_text_files("./")
 
-
-
-
-
-
-
-# def grep(pattern, lines):
-#     return (line for line in lines if pattern in line)
-
-#
-# pattern = "def"
-#
-# for match in grep(pattern, cat(['generators.py'])):
-#     print(match, end="")
