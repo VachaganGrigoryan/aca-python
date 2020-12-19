@@ -13,7 +13,7 @@ def get_all_file_name(folder_name, files=[]):
         if file.suffix == ".txt":
             files.append(file)
         elif file.is_dir():
-            get_all_file_name(file)
+            get_all_file_name(file, files)
 
     return files
 
