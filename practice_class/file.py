@@ -28,5 +28,32 @@ def read_all_text_files(folder_name):
             file.write(line)
 
 
-read_all_text_files("./")
+# read_all_text_files("./")
+
+
+import os
+
+def combine_all_texts():
+    abs_path = os.getcwd()
+
+    with open(os.path.join(abs_path, 'combine.txt'), 'w') as f:
+        for root, directories, files in os.walk('.'):
+            for file in files:
+                if file.endswith('.txt'):
+                    with open(os.path.join(abs_path, f'{root}/{file}')) as rf:
+                        f.write(rf.read())
+
+
+combine_all_texts()
+
+
+
+
+
+
+
+
+
+
+
 
