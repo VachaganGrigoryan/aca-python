@@ -59,7 +59,7 @@ def calculate(expression):
     log.info(f'Expression: {expression}')
 
     for item in expression.split()[::-1]:
-        if item in '0123456789':
+        if item.isdecimal() or item.replace(".", "", 1).isdecimal():
             operand_stack.append(item)
         elif item in operator and len(operand_stack) > 1:
             operand_stack.append(
@@ -78,10 +78,10 @@ def calculate(expression):
     print(log)
 
 
-calculate("* 6 + 4 5")  # 54
-calculate("* add 4 5 6")  # 54
-calculate("+ 2 3")  # 5
-calculate("2 3")  # Error
-calculate("2")  # 2
-calculate("a b")  # Error
-calculate("+ - * 2 3 3 / / 8 4 + 1 1")  # 2×3−3+8/4/(1+1) = 4
+# calculate("* 6 + 4 5")  # 54
+calculate("* add 4.4 5 -6")  # 54
+# calculate("+ 2 3")  # 5
+# calculate("2 3")  # Error
+# calculate("2")  # 2
+# calculate("a b")  # Error
+# calculate("+ - * 2 3 3 / / 8 4 + 1 1")  # 2×3−3+8/4/(1+1) = 4

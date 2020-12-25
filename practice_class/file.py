@@ -47,6 +47,7 @@ def combine_all_texts():
 combine_all_texts()
 
 
+print()
 
 
 
