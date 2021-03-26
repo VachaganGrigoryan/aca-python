@@ -1,0 +1,1 @@
+{'id': 1, 'first_name': 'Vachagan', 'last_name': 'Grigoryan', 'email': 'vachagan.grigoryan@outlook.com', 'password': 'qwerty', 'profile_pic': None, 'birth_date': None, 'level': 0, 'about': 'The best Artist', 'listeners_count': 56}
