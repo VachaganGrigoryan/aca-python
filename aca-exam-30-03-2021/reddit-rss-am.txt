@@ -1,0 +1,207 @@
+                          Reddit RSS Կլիենտ
+                          -----------------
+
+  Մշակել պարզ RSS կլիենտ Reddit կայքի ենթաէջերի համար։ Ստացված ծրագիրը ՊԵՏՔ Է
+որպես մուտքային պարամետր ստանա subreddit֊ի անունը, որպեսզի կարողանա ներբեռնել
+RSS տվյալները։ Բոլոր subreddit֊ների RSS URL հասցեները կառուցվում են հետևյալ
+սկզբունքով․
+
+    https://www.reddit.com/r/python/.rss
+                            └──┬──┘
+                        subreddit֊ի անունը
+
+Տարբեր subreddit֊ներից տվյալներ ներբեռնելու նապատակով ծրագիրը պետք է կառուցի
+URL֊ները՝ օգտագործելով մուտքային subreddit֊ի անունն ու հիմնական URL (վերին
+սխեմայում):
+
+RSS աղբյուրները տվյալները տրամադրում են XML ձևաչափի փաստաթղթերով, որոնք
+պարունակում են նորություններն ու առընչվող տվյալները։ Տրամադրվող XML֊ից
+պետք է յուրաքանչյուր entry֊ից արտահանել նորության վերնագիրը, URL հասցեն,
+հեղինակին և թարմացման ամսաթիվը։
+
+Պահանջները․
+    * թույլատրվում է օգտագործել միայն Python լեզվի և դրա ստանդարդ գրադարանի
+      գործիքակազմը,
+
+    * ծրագրի աշխատանքի արյունքները պետք է համապատասխանեն օրինակում բերված
+      արդյունքներին,
+
+    * ծրագիրը պետք է նախագծվի OOP մոտեցումների կիրառմամբ (առնվազն 3 class),
+
+    * կոդը պետք է համապատասխանի PEP8 ստանդարտի,
+
+    * անհրաժեշտ է կիրառել Python֊ի "best practices"֊ը (օրինակ՝ պետք չէ
+      տեքստերն իրար միացնել «+»֊ով)։
+
+Բոլոր պահանջները պարտադիր են։
+
+
+Նշումներ
+--------
+
+Reddit֊ի server֊ները սահմանափակում են սպասարկվող հարցումների քանակը՝
+անվտանգության նպատակներից ելնելով։ Ծրագի մշակման ընթացքում խնդիրներից
+խուսափելու նպատակով կարող եք ներբեռնել RSS֊ի XML֊ի մի օրինակ, կամ օգտագործել
+տարբեր subreddit֊ների RSS հասցեներ։ Ծրագիր վերջնական տարբերակը պետք է աշխատի
+առցանց տարբերակով։
+
+
+Հուշումներ
+----------
+* կիրառեք «argparse» մոդուլը մուտքային պարամետրերը մշակելու համար
+
+* RSS XML֊ն ունի «namespace», այդ իսկ պատճառով փոձեք կիրառել այն XML փաստաթուղթը
+  վերծանելուց «xml.etree.ElementTree» մոդուլով
+
+
+Ծրագի աշխատանքի արդյունքները
+----------------------------
+
+
+>>> python3 reddit-rss.py -h
+usage: reddit-rss.py [-h] sub
+
+Reddit RSS Client
+
+positional arguments:
+  sub         subreddit
+
+optional arguments:
+  -h, --help  show this help message and exit
+
+
+>>> python3 reddit-rss.py python
+ 1.  Sunday Daily Thread: What's everyone working on this week? 
+     ---------------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/meq0cb/sunday_daily_thread_whats_everyone_working_on/ 
+     Author: /u/Im__Joseph   Updated: 2021-03-28T00:00:14+00:00
+
+ 2.  Monday Daily Thread: Project ideas! 
+     ----------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfd9sw/monday_daily_thread_project_ideas/ 
+     Author: /u/Im__Joseph   Updated: 2021-03-29T00:00:15+00:00
+
+ 3.  I made command-line Wikipedia! 
+     ------------------------------ 
+     https://www.reddit.com/r/Python/comments/mf8n2y/i_made_commandline_wikipedia/ 
+     Author: /u/Unwise_Sage   Updated: 2021-03-28T20:01:04+00:00
+
+ 4.  pText, the pure python PDF library 
+     ---------------------------------- 
+     https://www.reddit.com/r/Python/comments/mey90r/ptext_the_pure_python_pdf_library/ 
+     Author: /u/josc1989   Updated: 2021-03-28T09:33:23+00:00
+
+ 5.  Programming with types is much, much harder than I thought 
+     ---------------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mf22pu/programming_with_types_is_much_much_harder_than_i/ 
+     Author: /u/GiantElectron   Updated: 2021-03-28T14:43:12+00:00
+
+ 6.  How to draw flowers in python for data visualization. 
+     ----------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfj62p/how_to_draw_flowers_in_python_for_data/ 
+     Author: /u/antoine_dedave   Updated: 2021-03-29T06:19:04+00:00
+
+ 7.  5 Mini Projects with Random Module 
+     ---------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfi743/5_mini_projects_with_random_module/ 
+     Author: /u/BlazingWarlord   Updated: 2021-03-29T05:06:01+00:00
+
+ 8.  What is considered essential for intermediate/advanced Python developer 
+     ----------------------------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mf4zwq/what_is_considered_essential_for/ 
+     Author: /u/Kangaroo_Boxer   Updated: 2021-03-28T17:06:36+00:00
+
+ 9.  Scout - A multi-platform feature filled Youtube video downloader (v1.0) 
+     ----------------------------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfcsqs/scout_a_multiplatform_feature_filled_youtube/ 
+     Author: /u/vanillaicewherever   Updated: 2021-03-28T23:32:52+00:00
+
+10.  Python String Manipulation Handbook 
+     ----------------------------------- 
+     https://www.reddit.com/r/Python/comments/mf3s5z/python_string_manipulation_handbook/ 
+     Author: /u/renanmoura   Updated: 2021-03-28T16:07:32+00:00
+
+11.  The Most Popular Programming Languages - 1965/2021 
+     -------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfjzhd/the_most_popular_programming_languages_19652021/ 
+     Author: /u/statistics_video   Updated: 2021-03-29T07:20:12+00:00
+
+12.  I made a little program that let you see post from a subreddit and download them 
+     -------------------------------------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfju4j/i_made_a_little_program_that_let_you_see_post/ 
+     Author: /u/ThaSig   Updated: 2021-03-29T07:08:44+00:00
+
+13.  Lack of python Competency or resources? 
+     --------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfjs4t/lack_of_python_competency_or_resources/ 
+     Author: /u/off_edit   Updated: 2021-03-29T07:04:33+00:00
+
+14.  How I Automated My Gym Slot Reservation using Python 
+     ---------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfjbxd/how_i_automated_my_gym_slot_reservation_using/ 
+     Author: /u/cheerfulboy   Updated: 2021-03-29T06:30:48+00:00
+
+15.  A free HTML version of my book "Python from the Very Beginning" 
+     --------------------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mehpp4/a_free_html_version_of_my_book_python_from_the/ 
+     Author: /u/jgw25   Updated: 2021-03-27T16:55:18+00:00
+
+16.  Python on Jupyter 
+     ----------------- 
+     https://www.reddit.com/r/Python/comments/mfil7r/python_on_jupyter/ 
+     Author: /u/eik_bunjara   Updated: 2021-03-29T05:35:02+00:00
+
+17.  a plugin system for python packages 
+     ----------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfigy8/a_plugin_system_for_python_packages/ 
+     Author: /u/axju   Updated: 2021-03-29T05:26:25+00:00
+
+18.  Beginner Python and Pygame tutorial teaching you to make Pong! 
+     -------------------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mf1glt/beginner_python_and_pygame_tutorial_teaching_you/ 
+     Author: /u/scriptline-studios   Updated: 2021-03-28T14:13:01+00:00
+
+19.  My first Python project, A Instagram Bot that uploads pictures, writes caption including hashtags from a local directory in your machine. Here: https://github.com/iYashodhan/InstantUpload 
+     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mf1dyk/my_first_python_project_a_instagram_bot_that/ 
+     Author: /u/iYashodhan   Updated: 2021-03-28T14:09:40+00:00
+
+20.  Export YouTube Channel Playlist to Excel using Python 
+     ----------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfeeso/export_youtube_channel_playlist_to_excel_using/ 
+     Author: /u/jiejenn   Updated: 2021-03-29T01:05:54+00:00
+
+21.  Fast Locally Weighted Scatterplot Smoothing Library 
+     --------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfdhrp/fast_locally_weighted_scatterplot_smoothing/ 
+     Author: /u/EnergyVis   Updated: 2021-03-29T00:12:35+00:00
+
+22.  YouTube videos in your playlist getting deleted? Don't know which ones were deleted? Introducing... YouTubePlaylistSnapshot 
+     --------------------------------------------------------------------------------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mf7wjn/youtube_videos_in_your_playlist_getting_deleted/ 
+     Author: /u/FriskySaga   Updated: 2021-03-28T19:25:29+00:00
+
+23.  Python Doesn’t Interest Me 
+     -------------------------- 
+     https://www.reddit.com/r/Python/comments/mfeich/python_doesnt_interest_me/ 
+     Author: /u/Sprinkle_Salt   Updated: 2021-03-29T01:11:39+00:00
+
+24.  Are you feeling demotivated when it comes to learning programming? If you are, consider checking out this video I made on why learning how to code, as daunting as it may initially seem, is something that is definitely achievable. I really hope this helps you guys out, have a great day everyone! 
+     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mfgmrl/are_you_feeling_demotivated_when_it_comes_to/ 
+     Author: /u/RohakJain   Updated: 2021-03-29T03:21:24+00:00
+
+25.  Made a tutorial about timeit and timing your code a while ago:) Would appreciate some feedback:) 
+     ------------------------------------------------------------------------------------------------ 
+     https://www.reddit.com/r/Python/comments/men51t/made_a_tutorial_about_timeit_and_timing_your_code/ 
+     Author: /u/Adeon18   Updated: 2021-03-27T21:28:51+00:00
+
+26.  Guide to Auto Formatting (for Beginners). 
+     ----------------------------------------- 
+     https://www.reddit.com/r/Python/comments/mf6j55/guide_to_auto_formatting_for_beginners/ 
+     Author: /u/astrian72954   Updated: 2021-03-28T18:19:15+00:00
+
+27.  My First Project! 
+     ----------------- 
+     https://www.reddit.com/r/Python/comments/mf0xpv/my_first_project/ 
+     Author: /u/I3us   Updated: 2021-03-28T12:55:21+00:00

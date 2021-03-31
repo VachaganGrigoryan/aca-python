@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <category term="Python" label="r/Python"/>
+    <updated>2021-03-30T16:59:21+00:00</updated>
+    <icon>https://www.redditstatic.com/icon.png/</icon>
+    <id>/r/python/.rss</id>
+    <link rel="self" href="https://www.reddit.com/r/python/.rss" type="application/atom+xml"/>
+    <link rel="alternate" href="https://www.reddit.com/r/python/" type="text/html"/>
+    <logo>https://b.thumbs.redditmedia.com/8HiO52_EuT_h63Qg.png</logo>
+    <subtitle>News about the programming language Python. If you have something to teach others post here. If you have
+        questions or are a newbie use r/learnpython
+    </subtitle>
+    <title>Python</title>
+    <entry>
+        <author>
+            <name>/u/Im__Joseph</name>
+            <uri>https://www.reddit.com/user/Im__Joseph</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Tell &lt;a href=&quot;/r/python&quot;&gt;/r/python&lt;/a&gt;
+            what you&amp;#39;re working on this week! You can be bragging, grousing, sharing your passion, or explaining
+            your pain. Talk about your current project or your pet project; whatever you want to share.&lt;/p&gt; &lt;/div&gt;&lt;!--
+            SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Im__Joseph&quot;&gt;
+            /u/Im__Joseph &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/meq0cb/sunday_daily_thread_whats_everyone_working_on/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/meq0cb/sunday_daily_thread_whats_everyone_working_on/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_meq0cb</id>
+        <link href="https://www.reddit.com/r/Python/comments/meq0cb/sunday_daily_thread_whats_everyone_working_on/"/>
+        <updated>2021-03-28T00:00:14+00:00</updated>
+        <title>Sunday Daily Thread: What's everyone working on this week?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Im__Joseph</name>
+            <uri>https://www.reddit.com/user/Im__Joseph</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Have some burning questions
+            on advanced Python topics? Use this thread to ask more advanced questions related to Python.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;If
+            your question is a beginner question we hold a beginner Daily Thread tomorrow (Wednesday) where you can ask
+            any question! We may remove questions here and ask you to resubmit tomorrow.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;This
+            thread may be fairly low volume in replies, if you don&amp;#39;t receive a response we recommend looking at
+            &lt;a href=&quot;/r/LearnPython&quot;&gt;r/LearnPython&lt;/a&gt; or joining the Python Discord server at
+            &lt;a href=&quot;https://discord.gg/python&quot;&gt;https://discord.gg/python&lt;/a&gt; where you stand a
+            better chance of receiving a response.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by
+            &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Im__Joseph&quot;&gt; /u/Im__Joseph &lt;/a&gt; &lt;br/&gt;
+            &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mg343c/tuesday_daily_thread_advanced_questions/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mg343c/tuesday_daily_thread_advanced_questions/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mg343c</id>
+        <link href="https://www.reddit.com/r/Python/comments/mg343c/tuesday_daily_thread_advanced_questions/"/>
+        <updated>2021-03-30T00:00:14+00:00</updated>
+        <title>Tuesday Daily Thread: Advanced questions</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/vensucksatlife</name>
+            <uri>https://www.reddit.com/user/vensucksatlife</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Yo I made this recipe cook
+            book in flask with images and some other data scrapped from the internet and bundled it in a sqlite
+            database, then used a template and Flask to make a web front for the data.&lt;/p&gt; &lt;p&gt;website: &lt;a
+            href=&quot;https://librerecipes.herokuapp.com&quot;&gt;https://librerecipes.herokuapp.com&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;github: &lt;a href=&quot;https://github.com/Anarbb/LibreRecipes&quot;&gt;https://github.com/Anarbb/LibreRecipes&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;I would like some criticism if possible&lt;/p&gt; &lt;p&gt;Edit: This project was made as a
+            response to bloated websites that are nowadays the norm and also tracking concerns (I am hosting this on
+            heroku so I&amp;#39;m using external images that may be imbedded with trackers, so it just a demo for now)&lt;/p&gt;
+            &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/vensucksatlife&quot;&gt;
+            /u/vensucksatlife &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mga8xy/an_open_source_recipe_book_database_with_a_flask/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mga8xy/an_open_source_recipe_book_database_with_a_flask/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mga8xy</id>
+        <link href="https://www.reddit.com/r/Python/comments/mga8xy/an_open_source_recipe_book_database_with_a_flask/"/>
+        <updated>2021-03-30T07:15:22+00:00</updated>
+        <title>An open source recipe book database with a flask web-front</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Pebaz</name>
+            <uri>https://www.reddit.com/user/Pebaz</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;It started with an idea: &lt;em&gt;&amp;quot;Since
+            Python objects store their methods/fields in&lt;/em&gt; &lt;strong&gt;&lt;em&gt;__dict__&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;,
+            that means that&lt;/em&gt; &lt;strong&gt;&lt;em&gt;dictionaries/hash tables power the entire language.&lt;/em&gt;&lt;/strong&gt;
+            That means that Python spends a significant portion of its time hashing data. What would happen if the hash
+            function Python used was swapped out with a much faster one? &lt;strong&gt;&lt;em&gt;Would it speed up
+            CPython?&lt;/em&gt;&lt;/strong&gt;&lt;em&gt;&amp;quot;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;So I set off to find
+            out.&lt;/p&gt; &lt;p&gt;The first experiment I ran was to find out how many times the hash function is used
+            within a single print(&amp;quot;Hello World!&amp;quot;) statement. &lt;strong&gt;Python runs the hash
+            function 11 times for just this one thing!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Clearly, a faster hash function
+            would help at least a little bit.&lt;/p&gt; &lt;p&gt;I chose &lt;a href=&quot;https://github.com/Cyan4973/xxHash&quot;&gt;xxHash&lt;/a&gt;
+            as the &amp;quot;faster&amp;quot; hash function to test out since it is a single header file and is easy to
+            compile.&lt;/p&gt; &lt;p&gt;I swapped out the default hash function used in the Py_hash_t
+            _Py_HashBytes(const void *src, Py_ssize_t len) function to use the xxHash function XXH64.&lt;/p&gt; &lt;p&gt;&lt;em&gt;The
+            results were astounding.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;I created a &lt;a href=&quot;https://github.com/Pebaz/cpython/blob/master/benchmark.py&quot;&gt;simple
+            benchmark&lt;/a&gt; (targeted at hashing performance), and ran it:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;CPython
+            with xxHash hashing function was 62-76% faster!&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;I believe the results of
+            this experiment are worth exploring by a CPython contributor expert.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://github.com/Pebaz/cpython&quot;&gt;Here
+            is the code&lt;/a&gt; for this for anyone that wants to see whether or not to try to spend the time to do
+            this right (perhaps not using xxHash specifically for example). The only changes I made were copy-pasting
+            the xxhash.h file into the &lt;a href=&quot;https://github.com/Pebaz/cpython/blob/master/Include/xxhash.h&quot;&gt;include
+            directory&lt;/a&gt; and using the &lt;a href=&quot;https://github.com/Pebaz/cpython/blob/5de1728ca8697461d6fc3aa6bbcf656f6145acf1/Python/pyhash.c#L203&quot;&gt;XXH64
+            hashing function&lt;/a&gt; in the _Py_HashBytes() function.&lt;/p&gt; &lt;p&gt;I want to caveat the code
+            changes by saying that I am not an expert C programmer, nor was this a serious effort, nor was the
+            macro-benchmark by any means accurate (they never are). This was simply a proof of concept for food for
+            thought for the experts that work on CPython every day and it may not even be useful.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Again,
+            I&amp;#39;d like to stress that this was just food for thought, and that all benchmarks are inaccurate.&lt;/strong&gt;&lt;/p&gt;
+            &lt;p&gt;However, I hope this helps the Python community as it would be awesome to have this high of a speed
+            boost.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Pebaz&quot;&gt;
+            /u/Pebaz &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgi4op/76_faster_cpython/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgi4op/76_faster_cpython/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mgi4op</id>
+        <link href="https://www.reddit.com/r/Python/comments/mgi4op/76_faster_cpython/"/>
+        <updated>2021-03-30T15:08:03+00:00</updated>
+        <title>76% Faster CPython</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/meadsteve</name>
+            <uri>https://www.reddit.com/user/meadsteve</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Now everything just happens
+            somewhen &lt;a href=&quot;https://github.com/meadsteve/somewhen.py&quot;&gt;https://github.com/meadsteve/somewhen.py&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/meadsteve&quot;&gt;
+            /u/meadsteve &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgeu08/i_got_annoyed_with_datetimes/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgeu08/i_got_annoyed_with_datetimes/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mgeu08</id>
+        <link href="https://www.reddit.com/r/Python/comments/mgeu08/i_got_annoyed_with_datetimes/"/>
+        <updated>2021-03-30T12:25:55+00:00</updated>
+        <title>I got annoyed with datetimes.</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/BLochmann</name>
+            <uri>https://www.reddit.com/user/BLochmann</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgezcw/icecream_never_use_print_to_debug_again_in_python/&quot;&gt;
+            &lt;img src=&quot;https://b.thumbs.redditmedia.com/x9VWEPcb_LC2oy1OmYASl7JWbVzJ-jgz5XB_HerpEik.jpg&quot;
+            alt=&quot;Icecream: Never use print() to debug again in Python&quot; title=&quot;Icecream: Never use print()
+            to debug again in Python&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a
+            href=&quot;https://www.reddit.com/user/BLochmann&quot;&gt; /u/BLochmann &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a
+            href=&quot;https://github.com/gruns/icecream&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a
+            href=&quot;https://www.reddit.com/r/Python/comments/mgezcw/icecream_never_use_print_to_debug_again_in_python/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mgezcw</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/x9VWEPcb_LC2oy1OmYASl7JWbVzJ-jgz5XB_HerpEik.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/IRcOxxDPTHBX9eV1NelITNnWQIm41Zl0y2sAybbyZJE.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=7d4e78ef3342cf57dd11489e82c87fd8c0a828e4"
+                width="320" height="320"/>
+        <link href="https://www.reddit.com/r/Python/comments/mgezcw/icecream_never_use_print_to_debug_again_in_python/"/>
+        <updated>2021-03-30T12:33:52+00:00</updated>
+        <title>Icecream: Never use print() to debug again in Python</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/jamescalam</name>
+            <uri>https://www.reddit.com/user/jamescalam</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfu8vx/creating_synthwave_with_matplotlib/&quot;&gt;
+            &lt;img src=&quot;https://b.thumbs.redditmedia.com/IwyY2uEqNd4Wv-JezhBCILF0TIeOkfd9OEj5BZPKZHs.jpg&quot;
+            alt=&quot;Creating Synthwave with Matplotlib&quot; title=&quot;Creating Synthwave with Matplotlib&quot; /&gt;
+            &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/jamescalam&quot;&gt;
+            /u/jamescalam &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://towardsdatascience.com/creating-synthwave-with-matplotlib-ea7c9be59760&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfu8vx/creating_synthwave_with_matplotlib/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mfu8vx</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/IwyY2uEqNd4Wv-JezhBCILF0TIeOkfd9OEj5BZPKZHs.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/cr7CgYd9Lj1zYN5SC7kDAHe519LfD4hE3lsVp99KYfo.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=69a63358cf1c0cb29e9a20ed06edfe3631eab9cf"
+                width="640" height="384"/>
+        <link href="https://www.reddit.com/r/Python/comments/mfu8vx/creating_synthwave_with_matplotlib/"/>
+        <updated>2021-03-29T17:08:21+00:00</updated>
+        <title>Creating Synthwave with Matplotlib</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/BLochmann</name>
+            <uri>https://www.reddit.com/user/BLochmann</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgf4cr/text_to_image_generation/&quot;&gt;
+            &lt;img src=&quot;https://b.thumbs.redditmedia.com/ZvWYSX052m8B6IWwi3lU9BHKeFvGS4k_SNCQIxqlT9I.jpg&quot;
+            alt=&quot;Text to Image Generation&quot; title=&quot;Text to Image Generation&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt;
+            &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/BLochmann&quot;&gt;
+            /u/BLochmann &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://github.com/lucidrains/deep-daze&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgf4cr/text_to_image_generation/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mgf4cr</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/ZvWYSX052m8B6IWwi3lU9BHKeFvGS4k_SNCQIxqlT9I.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/l24TR-3AveCRv54nQYIeM859vvIHSjAwCDTsVDMwtSU.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=ec5d18400ed06cdae1522efa77df032a331d1f26"
+                width="320" height="320"/>
+        <link href="https://www.reddit.com/r/Python/comments/mgf4cr/text_to_image_generation/"/>
+        <updated>2021-03-30T12:41:25+00:00</updated>
+        <title>Text to Image Generation</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/BLochmann</name>
+            <uri>https://www.reddit.com/user/BLochmann</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgf2b1/python_turns_30_guido_van_rossum_interview/&quot;&gt;
+            &lt;img src=&quot;https://b.thumbs.redditmedia.com/t9tikeyqsg5CT9AIdHKw5yq7UGW1WGxZnE7B5elfBFs.jpg&quot;
+            alt=&quot;Python turns 30 (Guido van Rossum interview)&quot; title=&quot;Python turns 30 (Guido van Rossum
+            interview)&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/BLochmann&quot;&gt;
+            /u/BLochmann &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.techradar.com/news/python-turns-30-meet-the-man-tasked-with-keeping-the-programming-language-on-track&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgf2b1/python_turns_30_guido_van_rossum_interview/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mgf2b1</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/t9tikeyqsg5CT9AIdHKw5yq7UGW1WGxZnE7B5elfBFs.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/3mMA4mEiBu3R7DNXK2QPRLLkuDZuj9Ns2beTpY-ugrw.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=65bffb767d7ce8c08a553ecd1434e5b72c66c92f"
+                width="640" height="359"/>
+        <link href="https://www.reddit.com/r/Python/comments/mgf2b1/python_turns_30_guido_van_rossum_interview/"/>
+        <updated>2021-03-30T12:38:07+00:00</updated>
+        <title>Python turns 30 (Guido van Rossum interview)</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/lan-shark</name>
+            <uri>https://www.reddit.com/user/lan-shark</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Source code/usage
+            instructions: &lt;a href=&quot;https://github.com/BryanCuneo/yt-to-discord&quot;&gt;yt-to-discord&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&amp;#x200B;&lt;/p&gt; &lt;p&gt;A community I&amp;#39;m in was looking for a way to automatically
+            post new videos from a YouTube channel to a Discord channel without paying a premium fee for a popular bot.
+            I started looking into it and found that &lt;a href=&quot;https://developers.google.com/youtube/v3/guides/push_notifications&quot;&gt;YouTube
+            offers push notifications via PubSubHubbub&lt;/a&gt;, but the documentation is minimal and I couldn&amp;#39;t
+            find much in the way of examples or instructions, so I decided to write my own and post it for anybody
+            interested in doing the same.&lt;/p&gt; &lt;p&gt;&amp;#x200B;&lt;/p&gt; &lt;p&gt;yt-to-discord is a small
+            Flask server that listens for a YT push notification and then sends a message out to a Discord channel via
+            webhooks (which has very nice documentation and even an associated Python library). This project is a fully
+            functioning server, but it&amp;#39;s a minimalistic implementation that&amp;#39;s primarily intended as a
+            jumping-off point or to be included in a larger project (i.e. running alongside a discord.py bot via
+            threading). Detailed setup instructions included in the readme.&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt;
+            &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/lan-shark&quot;&gt;
+            /u/lan-shark &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgj4s9/youtube_push_notifications_to_discord_via/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgj4s9/youtube_push_notifications_to_discord_via/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mgj4s9</id>
+        <link href="https://www.reddit.com/r/Python/comments/mgj4s9/youtube_push_notifications_to_discord_via/"/>
+        <updated>2021-03-30T15:54:02+00:00</updated>
+        <title>YouTube Push Notifications to Discord via PubSubHubbub and Webhooks</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Alpyine</name>
+            <uri>https://www.reddit.com/user/Alpyine</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfowql/i_made_multipy_a_central_app_to_conveniently/&quot;&gt;
+            &lt;img src=&quot;https://b.thumbs.redditmedia.com/Mg3RwmyvZWHE3IjChjCNE5ShipMaz9wo2Myhg6ziBEI.jpg&quot;
+            alt=&quot;I made MultiPy, a central app to conveniently group and keep a track of your python scripts. You
+            can save the dashboard for later use and switch to view-only mode to showcase your apps. Built using Dear
+            PyGui. You can find more information and a link to the repo in the comments.&quot; title=&quot;I made
+            MultiPy, a central app to conveniently group and keep a track of your python scripts. You can save the
+            dashboard for later use and switch to view-only mode to showcase your apps. Built using Dear PyGui. You can
+            find more information and a link to the repo in the comments.&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt;
+            &lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;&amp;#x200B;&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://reddit.com/link/mfowql/video/rftglic1ryp61/player&quot;&gt;MultiPy
+            Demonstration&lt;/a&gt;&lt;/p&gt; &lt;p&gt;You can choose a name for your categories and scripts, indicate
+            whether your script requires a virtual environment to run and select the virtual environment you need,
+            choose whether you want the command prompt to open up or not, and also choose a thumbnail if you would like
+            to present your work better.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://github.com/RahulShagri/MultiPy&quot;&gt;Link
+            to MultiPy repo.&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://pypi.org/project/dearpygui/&quot;&gt;Link
+            to Dear PyGui.&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Note: MultiPy currently only works on Windows 10.&lt;/strong&gt;&lt;/p&gt;
+            &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Alpyine&quot;&gt;
+            /u/Alpyine &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfowql/i_made_multipy_a_central_app_to_conveniently/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfowql/i_made_multipy_a_central_app_to_conveniently/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mfowql</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/Mg3RwmyvZWHE3IjChjCNE5ShipMaz9wo2Myhg6ziBEI.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/iM9FWcrktpQx27QOUP9eE-lrQ4OKLxOGrTqRZc8F5K4.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=98b608c755612d0eb7ed83cce98517b8010ff33b"
+                width="320" height="320"/>
+        <link href="https://www.reddit.com/r/Python/comments/mfowql/i_made_multipy_a_central_app_to_conveniently/"/>
+        <updated>2021-03-29T12:52:14+00:00</updated>
+        <title>I made MultiPy, a central app to conveniently group and keep a track of your python scripts. You can save
+            the dashboard for later use and switch to view-only mode to showcase your apps. Built using Dear PyGui. You
+            can find more information and a link to the repo in the comments.
+        </title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/SourceryNick</name>
+            <uri>https://www.reddit.com/user/SourceryNick</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfm7ul/more_quick_ways_to_improve_your_python/&quot;&gt;
+            &lt;img src=&quot;https://b.thumbs.redditmedia.com/73_FRPVEFqpGCqx1O7kmg8IdwjZoz2qzphbxh1FVIUw.jpg&quot;
+            alt=&quot;More quick ways to improve your Python&quot; title=&quot;More quick ways to improve your Python&quot;
+            /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/SourceryNick&quot;&gt;
+            /u/SourceryNick &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://sourcery.ai/blog/explaining-refactorings-7/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfm7ul/more_quick_ways_to_improve_your_python/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mfm7ul</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/73_FRPVEFqpGCqx1O7kmg8IdwjZoz2qzphbxh1FVIUw.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/CRANNO9GeGG8f4Hlf6FzUO0r-VbJ_WsaTMAfLNr6TRg.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=f9b9f61a87410b2036ba1e6c29d52031bc2fd63f"
+                width="640" height="427"/>
+        <link href="https://www.reddit.com/r/Python/comments/mfm7ul/more_quick_ways_to_improve_your_python/"/>
+        <updated>2021-03-29T10:08:27+00:00</updated>
+        <title>More quick ways to improve your Python</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Alternative_Detail31</name>
+            <uri>https://www.reddit.com/user/Alternative_Detail31</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://ritabratamaiti.github.io/pyRunBrowser/&quot;&gt;https://ritabratamaiti.github.io/pyRunBrowser/&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;The source code is available here: &lt;a href=&quot;https://github.com/ritabratamaiti/pyRunBrowser&quot;&gt;https://github.com/ritabratamaiti/pyRunBrowser&lt;/a&gt;
+            (It is simply an index.html for the UI and app.js for the frontend logic.)&lt;/p&gt; &lt;p&gt;For the
+            editor, I have used &lt;a href=&quot;https://codemirror.net/&quot;&gt;CodeMirror&lt;/a&gt; and for the
+            Python browser runtime I use &lt;a href=&quot;https://pyodide.org/en/latest/&quot;&gt;Pyodide&lt;/a&gt;.&lt;/p&gt;
+            &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Alternative_Detail31&quot;&gt;
+            /u/Alternative_Detail31 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfmrc1/i_built_a_simple_webapp_that_allows_you_to_edit/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfmrc1/i_built_a_simple_webapp_that_allows_you_to_edit/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mfmrc1</id>
+        <link href="https://www.reddit.com/r/Python/comments/mfmrc1/i_built_a_simple_webapp_that_allows_you_to_edit/"/>
+        <updated>2021-03-29T10:44:33+00:00</updated>
+        <title>I built a simple webapp that allows you to edit and run python, completely within the browser!</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Am4t3uR</name>
+            <uri>https://www.reddit.com/user/Am4t3uR</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgfyri/all_the_important_features_and_changes_in_python/&quot;&gt;
+            &lt;img src=&quot;https://b.thumbs.redditmedia.com/-AX9O4FIkLE2Khmv0v5sKFFOhNYGPICI-PJs7vY7BUQ.jpg&quot;
+            alt=&quot;All The Important Features and Changes in Python 3.10&quot; title=&quot;All The Important Features
+            and Changes in Python 3.10&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32;
+            &lt;a href=&quot;https://www.reddit.com/user/Am4t3uR&quot;&gt; /u/Am4t3uR &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a
+            href=&quot;https://towardsdatascience.com/all-the-important-features-and-changes-in-python-3-10-e3d1fe542fbf&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgfyri/all_the_important_features_and_changes_in_python/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mgfyri</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/-AX9O4FIkLE2Khmv0v5sKFFOhNYGPICI-PJs7vY7BUQ.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/OP6x--anKhYuTf7qldmGPFpVChhyzyzds8A9Nq6Qw-s.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=582505cc0357c07898a62b65cb22db365bba34f9"
+                width="640" height="337"/>
+        <link href="https://www.reddit.com/r/Python/comments/mgfyri/all_the_important_features_and_changes_in_python/"/>
+        <updated>2021-03-30T13:24:53+00:00</updated>
+        <title>All The Important Features and Changes in Python 3.10</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/hannahbockisch</name>
+            <uri>https://www.reddit.com/user/hannahbockisch</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Doing a project from a
+            programming class. I am unsure what I am doing wrong: &lt;/p&gt; &lt;p&gt;my code is: &lt;/p&gt; &lt;p&gt;&amp;#x200B;&lt;/p&gt;
+            &lt;p&gt;# 4.06 programming, 3/24/21 &lt;/p&gt; &lt;p&gt;def main (): &lt;/p&gt; &lt;p&gt;print(“ The
+            American Honors Society is looking to celebrate female students of color. Those who meet the conditions will
+            receive a $25 gift card! Let’s see if you are eligible.”)&lt;/p&gt; &lt;p&gt;condition1=input(“Have you been
+            selected in the past as part of the American Honors Society(y/n)?”)&lt;/p&gt; &lt;p&gt;if(condition1== &amp;quot;y&amp;quot;):&lt;/p&gt;
+            &lt;p&gt;message1 = “Excellent!”&lt;/p&gt; &lt;p&gt;condition2=input(“Are you a female(y/n)?”)&lt;/p&gt;
+            &lt;p&gt;elif(condition2 == &amp;quot;y&amp;quot;and not(condition2== “n”)):&lt;/p&gt; &lt;p&gt;message2 =
+            “Great! Just one more condition to go.”&lt;/p&gt; &lt;p&gt;condition3=input(“Are you a person of
+            color(y/n)?”)&lt;/p&gt; &lt;p&gt;elif(condition3 == &amp;quot;y&amp;quot;and not (condition3== “n”)):&lt;/p&gt;
+            &lt;p&gt;message3 = “Awesome! You qualify for a $25 gift card!”&lt;/p&gt; &lt;p&gt;else:&lt;/p&gt; &lt;p&gt;print(&amp;quot;We’re
+            sorry, but you do not qualify for this offer.”) &lt;/p&gt; &lt;p&gt;main()&lt;/p&gt; &lt;/div&gt;&lt;!--
+            SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/hannahbockisch&quot;&gt;
+            /u/hannahbockisch &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgkklu/whats_wrong_with_my_code_help/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgkklu/whats_wrong_with_my_code_help/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mgkklu</id>
+        <link href="https://www.reddit.com/r/Python/comments/mgkklu/whats_wrong_with_my_code_help/"/>
+        <updated>2021-03-30T16:57:37+00:00</updated>
+        <title>What's wrong with my code? Help</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/RZIBI</name>
+            <uri>https://www.reddit.com/user/RZIBI</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Two months ago I have done my
+            second machine learning project, but first successfull! It&amp;#39;s trained on forza horizon 4 in Spring
+            and I tried this model if it works also in games like BeamNG, but it doesn&amp;#39;t. It&amp;#39;s very
+            simple just feeding tensorflow with grayscaled image of everything from car view and second image with black
+            background and white boxes that are showing where other vehicles are.&lt;/p&gt; &lt;p&gt;I usually don&amp;#39;t
+            code in Python so the code is all wacky but it does it&amp;#39;s job :D&lt;/p&gt; &lt;p&gt;github repo -
+            &lt;a href=&quot;https://github.com/CallMeRZIBI/Forza-autopilot&quot;&gt;https://github.com/CallMeRZIBI/Forza-autopilot&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/RZIBI&quot;&gt;
+            /u/RZIBI &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgki79/autopilot_with_tensoflow/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgki79/autopilot_with_tensoflow/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mgki79</id>
+        <link href="https://www.reddit.com/r/Python/comments/mgki79/autopilot_with_tensoflow/"/>
+        <updated>2021-03-30T16:54:35+00:00</updated>
+        <title>Autopilot with Tensoflow</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/ValBayArea</name>
+            <uri>https://www.reddit.com/user/ValBayArea</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;We now have over 18k
+            downloads for ApiLogicServer. Quick Summary &lt;a href=&quot;https://www.reddit.com/r/Python/comments/m07v21/instant_database_backends/&quot;&gt;here&lt;/a&gt;,
+            and Intro / Tutorial &lt;a href=&quot;https://dzone.com/articles/instant-api-backends&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;Execute this command:&lt;/p&gt; &lt;p&gt;&lt;code&gt;ApiLogicServer run&lt;/code&gt;&lt;/p&gt; &lt;p&gt;To
+            create&lt;/p&gt; &lt;ol&gt; &lt;li&gt;an &lt;strong&gt;instant API&lt;/strong&gt; for your database&lt;/li&gt;
+            &lt;li&gt;an &lt;strong&gt;instant web app&lt;/strong&gt; - multi-table, multi-page&lt;/li&gt; &lt;li&gt;&lt;strong&gt;declarative,
+            spreadsheet-like logic&lt;/strong&gt;, 40x more concise than code, for remarkable business agility&lt;/li&gt;
+            &lt;/ol&gt; &lt;p&gt;Open source, extensible using standard Python&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt;
+            &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/ValBayArea&quot;&gt;
+            /u/ValBayArea &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgjtd2/apilogicserver_instant_backend/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgjtd2/apilogicserver_instant_backend/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mgjtd2</id>
+        <link href="https://www.reddit.com/r/Python/comments/mgjtd2/apilogicserver_instant_backend/"/>
+        <updated>2021-03-30T16:23:37+00:00</updated>
+        <title>ApiLogicServer - Instant Backend</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/simonramstedt</name>
+            <uri>https://www.reddit.com/user/simonramstedt</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgitt9/uniton_instrumentalize_unity_with_python/&quot;&gt;
+            &lt;img src=&quot;https://b.thumbs.redditmedia.com/BuzVtLJpdd3RYcMacE5D58K8B6Co0yPWiR8ZsjjaFkY.jpg&quot;
+            alt=&quot;Uniton: Instrumentalize Unity with Python!&quot; title=&quot;Uniton: Instrumentalize Unity with
+            Python!&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/simonramstedt&quot;&gt;
+            /u/simonramstedt &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://github.com/uniton-dev/uniton&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgitt9/uniton_instrumentalize_unity_with_python/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mgitt9</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/BuzVtLJpdd3RYcMacE5D58K8B6Co0yPWiR8ZsjjaFkY.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/z5OT9qhjJAfd093YA48F1TZv7sV5e5Qtu1_K_Io7Kx4.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=c368c00f6e21ed3e4ea79b02615f906eabf42f24"
+                width="320" height="320"/>
+        <link href="https://www.reddit.com/r/Python/comments/mgitt9/uniton_instrumentalize_unity_with_python/"/>
+        <updated>2021-03-30T15:40:26+00:00</updated>
+        <title>Uniton: Instrumentalize Unity with Python!</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/azizul2350</name>
+            <uri>https://www.reddit.com/user/azizul2350</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;h1&gt;Udemy instructors giving
+            some of their courses for free. Free Coupon applied at checkout. One-time use only. Offer valid for 2 days
+            Only, &lt;a href=&quot;https://rajmalhotra-2822.medium.com/premium-python-and-programming-courses-for-free-from-udemy-85ed9b78af84&quot;&gt;Main
+            Article&lt;/a&gt;&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;Share with everyone who doesn&amp;#39;t know. Here are
+            the courses:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;em&gt;Python For Beginners Course In-Depth&lt;/em&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;em&gt;The Complete Python Game Development Course for 2021&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Python
+            Developer: Python/Django/Flask/PostgreSQL/MySQL/API&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;The Developers
+            Guide to&lt;/em&gt; &lt;a href=&quot;https://rajmalhotra-2822.medium.com/premium-python-and-programming-courses-for-free-from-udemy-85ed9b78af84&quot;&gt;&lt;em&gt;Python&lt;/em&gt;&lt;/a&gt;
+            &lt;em&gt;3 Programming&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Python GUI | Project in Python: Build a
+            Sign In-system&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Data Science Real-World Use Cases - Hands-On Python&lt;/em&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;em&gt;JavaScript Complete Beginners Course For Web Development&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Machine
+            Learning &amp;amp; Deep Learning in Python &amp;amp; R&lt;/em&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;a
+            href=&quot;https://rajmalhotra-2822.medium.com/premium-python-and-programming-courses-for-free-from-udemy-85ed9b78af84&quot;&gt;&lt;strong&gt;More
+            Details&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32;
+            &lt;a href=&quot;https://www.reddit.com/user/azizul2350&quot;&gt; /u/azizul2350 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a
+            href=&quot;https://www.reddit.com/r/Python/comments/mgiqtc/premium_python_and_programming_courses_for_free/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgiqtc/premium_python_and_programming_courses_for_free/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mgiqtc</id>
+        <link href="https://www.reddit.com/r/Python/comments/mgiqtc/premium_python_and_programming_courses_for_free/"/>
+        <updated>2021-03-30T15:36:34+00:00</updated>
+        <title>Premium Python and Programming Courses for FREE from Udemy. Instructors have made some of their Courses
+            FREE for 2 days due to COVID-19.
+        </title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/azizul2350</name>
+            <uri>https://www.reddit.com/user/azizul2350</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;h1&gt;Udemy instructors giving
+            some of their courses for free. Free Coupon applied at checkout. One-time use only. Offer valid for 2 days
+            Only, &lt;a href=&quot;https://rajmalhotra-2822.medium.com/premium-python-and-programming-courses-for-free-from-udemy-85ed9b78af84&quot;&gt;Main
+            Article&lt;/a&gt;&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;Share with everyone who doesn&amp;#39;t know. Here are
+            the courses:&lt;/strong&gt;&lt;/p&gt; &lt;ol&gt; &lt;li&gt;&lt;em&gt;Python For Beginners Course In-Depth&lt;/em&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;em&gt;The Complete Python Game Development Course for 2021&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Python
+            Developer: Python/Django/Flask/PostgreSQL/MySQL/API&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;The Developers
+            Guide to Python 3 Programming&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Python GUI | Project in Python:
+            Build a Sign In-system&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Data Science Real-World Use Cases -
+            Hands-On Python&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;JavaScript Complete Beginners Course For Web
+            Development&lt;/em&gt;&lt;/li&gt; &lt;li&gt;&lt;em&gt;Machine Learning &amp;amp; Deep Learning in Python
+            &amp;amp; R&lt;/em&gt;&lt;/li&gt; &lt;/ol&gt; &lt;p&gt;&lt;strong&gt;About more know visit this link:&lt;/strong&gt;
+            &lt;a href=&quot;https://rajmalhotra-2822.medium.com/premium-python-and-programming-courses-for-free-from-udemy-85ed9b78af84&quot;&gt;&lt;strong&gt;Raj
+            Malhotra&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32;
+            &lt;a href=&quot;https://www.reddit.com/user/azizul2350&quot;&gt; /u/azizul2350 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a
+            href=&quot;https://www.reddit.com/r/Python/comments/mgio9s/premium_python_and_programming_courses_for_free/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgio9s/premium_python_and_programming_courses_for_free/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mgio9s</id>
+        <link href="https://www.reddit.com/r/Python/comments/mgio9s/premium_python_and_programming_courses_for_free/"/>
+        <updated>2021-03-30T15:33:16+00:00</updated>
+        <title>Premium Python and Programming Courses for FREE from Udemy. Instructors have made some of their Courses
+            FREE for 2 days due to COVID-19.
+        </title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/masudhasan690</name>
+            <uri>https://www.reddit.com/user/masudhasan690</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;For my research, I am trying
+            to benchmark Django framework capacity. I am running the server in my own pc which has Intel core i7
+            processor with 12 core. If I run django with the builin server, it can server, it can server ~3000
+            request/30s.(HTML is just a &amp;quot;hello world&amp;quot; page). I tried to run Django with Gunicorn. But
+            to my surprise, it does not increase the server capacity. Even if I use 24 worker process, it still can
+            serve ~3100 requests/30s. &lt;/p&gt; &lt;p&gt;Does this number seem right? Because compared to other
+            languages, it seems very low. I want to make sure if I am doing it right.&lt;/p&gt; &lt;/div&gt;&lt;!--
+            SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/masudhasan690&quot;&gt;
+            /u/masudhasan690 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgin48/django_benchmark/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgin48/django_benchmark/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mgin48</id>
+        <link href="https://www.reddit.com/r/Python/comments/mgin48/django_benchmark/"/>
+        <updated>2021-03-30T15:31:44+00:00</updated>
+        <title>Django benchmark</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/crystoll</name>
+            <uri>https://www.reddit.com/user/crystoll</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mggicc/your_brains_on_python_part_2_python_mindwave/&quot;&gt;
+            &lt;img src=&quot;https://b.thumbs.redditmedia.com/afgnM4kVSxe3Qx6cvj127BLbymITiAhqpTCGuF03dkg.jpg&quot;
+            alt=&quot;Your Brains on Python Part 2: Python Mindwave Brainwave Recorder and How To Get Started&quot;
+            title=&quot;Your Brains on Python Part 2: Python Mindwave Brainwave Recorder and How To Get Started&quot; /&gt;
+            &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/crystoll&quot;&gt;
+            /u/crystoll &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://youtu.be/jXMd5aNIIoQ&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mggicc/your_brains_on_python_part_2_python_mindwave/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mggicc</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/afgnM4kVSxe3Qx6cvj127BLbymITiAhqpTCGuF03dkg.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/QZIj4Ee0xx7hR9M9dHyWgAQcPIy7mxv3DDg5KeoO-Ro.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=213e7d56d694027d1c3b7f55bcc6c0561345adce"
+                width="320" height="240"/>
+        <link href="https://www.reddit.com/r/Python/comments/mggicc/your_brains_on_python_part_2_python_mindwave/"/>
+        <updated>2021-03-30T13:51:46+00:00</updated>
+        <title>Your Brains on Python Part 2: Python Mindwave Brainwave Recorder and How To Get Started</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/antoine_dedave</name>
+            <uri>https://www.reddit.com/user/antoine_dedave</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfj62p/how_to_draw_flowers_in_python_for_data/&quot;&gt;
+            &lt;img src=&quot;https://b.thumbs.redditmedia.com/_VW78IdY7FuJ1MDgIgoyZcHEVc6qbiafpDOp3IZbmQM.jpg&quot;
+            alt=&quot;How to draw flowers in python for data visualization.&quot; title=&quot;How to draw flowers in
+            python for data visualization.&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32; submitted by &amp;#32;
+            &lt;a href=&quot;https://www.reddit.com/user/antoine_dedave&quot;&gt; /u/antoine_dedave &lt;/a&gt; &lt;br/&gt;
+            &lt;span&gt;&lt;a href=&quot;https://antoine-dedave.medium.com/dont-screen-etfs-pick-flowers-47aad109d1f9&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfj62p/how_to_draw_flowers_in_python_for_data/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mfj62p</id>
+        <media:thumbnail url="https://b.thumbs.redditmedia.com/_VW78IdY7FuJ1MDgIgoyZcHEVc6qbiafpDOp3IZbmQM.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/Zh-43M_vpfRIHW4B4jL1mauTiC-sEFn3-8wyNd48HOQ.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=75e2d26aa655dfef63489745ddd9790cce23de09"
+                width="640" height="337"/>
+        <link href="https://www.reddit.com/r/Python/comments/mfj62p/how_to_draw_flowers_in_python_for_data/"/>
+        <updated>2021-03-29T06:19:04+00:00</updated>
+        <title>How to draw flowers in python for data visualization.</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/_Ankur_Dey</name>
+            <uri>https://www.reddit.com/user/_Ankur_Dey</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;table&gt; &lt;tr&gt;&lt;td&gt; &lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgg9bm/i_made_this/&quot;&gt;
+            &lt;img src=&quot;https://a.thumbs.redditmedia.com/Ev8t_X_LS9f_1szyZcK_wgXyvQZH-7mR6EaJtGYGRY8.jpg&quot;
+            alt=&quot;i made this&quot; title=&quot;i made this&quot; /&gt; &lt;/a&gt; &lt;/td&gt;&lt;td&gt; &amp;#32;
+            submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/_Ankur_Dey&quot;&gt; /u/_Ankur_Dey &lt;/a&gt;
+            &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://youtu.be/DwAsTbHEBVk&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mgg9bm/i_made_this/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+            &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+        </content>
+        <id>t3_mgg9bm</id>
+        <media:thumbnail url="https://a.thumbs.redditmedia.com/Ev8t_X_LS9f_1szyZcK_wgXyvQZH-7mR6EaJtGYGRY8.jpg"/>
+        <media:preview
+                url="https://external-preview.redd.it/40mKZwyGkf26kLab1QjRFtUl9GTqK0U_elaBmNCQW0g.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=307470c1497e121f53a8ccc4a0e311391e8d7efd"
+                width="320" height="240"/>
+        <link href="https://www.reddit.com/r/Python/comments/mgg9bm/i_made_this/"/>
+        <updated>2021-03-30T13:39:23+00:00</updated>
+        <title>i made this</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/cxanpoker</name>
+            <uri>https://www.reddit.com/user/cxanpoker</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Hi everyone!&lt;/p&gt; &lt;p&gt;I
+            was trying to learn about web development in Python so I made this little project that I wanted to share
+            with you:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://github.com/cxan96/strong-but-simple-passwords&quot;&gt;https://github.com/cxan96/strong-but-simple-passwords&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;It&amp;#39;s a really simple flask app that generates a password based on a user input sentence and
+            gives feedback on how strong the generated password is. The password strength is estimated using the zxcvbn
+            package. (zxcvbn is pretty cool, it even considers dictionary attacks!)&lt;/p&gt; &lt;p&gt;Here&amp;#39;s a
+            link to the app itself, right now it&amp;#39;s running on Heroku free tier:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://strong-but-simple-passwords.herokuapp.com/&quot;&gt;https://strong-but-simple-passwords.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;My goal while making this project was to make use of some of the best practices that I learned
+            about, like:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;keeping a clean coding style using tools like black, flake8 and
+            isort&lt;/li&gt; &lt;li&gt;writing meaningful tests using pytest and running them in isolated environments
+            using tox&lt;/li&gt; &lt;li&gt;measuring code coverage (allowing me to include a pretty badge in my repo)&lt;/li&gt;
+            &lt;li&gt;setting up a simple CI pipeline using github actions&lt;/li&gt; &lt;li&gt;using docker makes it
+            very easy to deploy the app, both locally and on heroku&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Also what&amp;#39;s
+            really cool about Heroku is that it integrates very well with Github. Everytime I push to the main branch
+            and the CI passes, a new version is automatically deployed!&lt;/p&gt; &lt;p&gt;So all in all this was a nice
+            learning experience, even though it was just a simple project to get started with Python web development.&lt;/p&gt;
+            &lt;p&gt;And maybe some of you can learn from this too by looking at the code, which would make me very
+            happy!&lt;/p&gt; &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/cxanpoker&quot;&gt;
+            /u/cxanpoker &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfpk2k/a_flask_webapp_helping_to_create_strong_but/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mfpk2k/a_flask_webapp_helping_to_create_strong_but/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mfpk2k</id>
+        <link href="https://www.reddit.com/r/Python/comments/mfpk2k/a_flask_webapp_helping_to_create_strong_but/"/>
+        <updated>2021-03-29T13:26:59+00:00</updated>
+        <title>A flask web-app helping to create strong but simple passwords. Deployed on Heroku free tier using
+            Docker
+        </title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/genericlemon24</name>
+            <uri>https://www.reddit.com/user/genericlemon24</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/genericlemon24&quot;&gt;
+            /u/genericlemon24 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://hpyproject.org/blog/posts/2021/03/hello-hpy/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mftv4r/hello_hpy_a_better_c_api_for_python/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mftv4r</id>
+        <link href="https://www.reddit.com/r/Python/comments/mftv4r/hello_hpy_a_better_c_api_for_python/"/>
+        <updated>2021-03-29T16:51:48+00:00</updated>
+        <title>Hello, HPy (A better C API for Python)</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/mushahidq</name>
+            <uri>https://www.reddit.com/user/mushahidq</uri>
+        </author>
+        <category term="Python" label="r/Python"/>
+        <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;Hi&lt;/p&gt; &lt;p&gt;Check
+            out my blog on web scraping using chrome webdriver:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://dev.to/mushahidq/better-web-scraping-using-headless-instance-of-chrome-82e&quot;&gt;https://dev.to/mushahidq/better-web-scraping-using-headless-instance-of-chrome-82e&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/mushahidq&quot;&gt;
+            /u/mushahidq &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mg8me1/better_web_scraping_using_headless_instance_of/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt;
+            &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/Python/comments/mg8me1/better_web_scraping_using_headless_instance_of/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;
+        </content>
+        <id>t3_mg8me1</id>
+        <link href="https://www.reddit.com/r/Python/comments/mg8me1/better_web_scraping_using_headless_instance_of/"/>
+        <updated>2021-03-30T05:17:19+00:00</updated>
+        <title>Better web scraping using headless instance of Chrome</title>
+    </entry>
+</feed>
