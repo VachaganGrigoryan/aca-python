@@ -38,3 +38,6 @@ course_id is last part of course url without .html  <br>
 
 2.1 Save scraped information in sqllight database. <br>
 2.2 write function that checks ever week if there is new lessons or not and send new lessons information to your personal(or test) email.
+
+The Mail of the scraping ACA
+![img.png](img.png)
