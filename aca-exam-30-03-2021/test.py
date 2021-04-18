@@ -45,7 +45,7 @@ class Formatter:
             for child in feed:
                 if 'author' in child.tag:
                     author = child[0].text
-                elif 'link' in child.tag:
+                elif  'link' in child.tag:
                     link = child.attrib['href']
                 elif 'title' in child.tag:
                     title = child.text
