@@ -1,0 +1,2 @@
+https://docs.python.org/3/library/wsgiref.html
+https://www.python.org/dev/peps/pep-3333/

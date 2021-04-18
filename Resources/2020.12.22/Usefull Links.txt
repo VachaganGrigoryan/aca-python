@@ -1,0 +1,11 @@
+Unicode HOWTO
+https://docs.python.org/3/howto/unicode.html
+
+Built-in Types (please look through all methods)
+https://docs.python.org/3/library/stdtypes.html#string-methods
+
+String module
+https://docs.python.org/3/library/string.html
+
+Text processing from Standard Library
+https://docs.python.org/3/library/text.html#textservices

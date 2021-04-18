@@ -1,0 +1,3 @@
+https://docs.python.org/3/library/urllib.html
+https://docs.python.org/3/library/html.parser.html
+https://scrapy.org/

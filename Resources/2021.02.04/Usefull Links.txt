@@ -1,0 +1,7 @@
+Pandas course for free
+https://www.reddit.com/r/Python/comments/lain0r/hey_reddit_heres_my_comprehensive_course_on/
+
+https://docs.python.org/3/library/abc.html
+
+https://blog.startifact.com/posts/older/what-is-pythonic.html
+

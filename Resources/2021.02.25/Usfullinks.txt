@@ -1,0 +1,4 @@
+https://docs.python.org/3/library/collections.html
+https://www.w3.org/TR/REC-xml/
+https://www.json.org/json-en.html
+https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats

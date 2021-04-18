@@ -1,0 +1,4 @@
+https://wiki.python.org/moin/TimeComplexity
+
+Angela 
+https://refactoring.guru/design-patterns
