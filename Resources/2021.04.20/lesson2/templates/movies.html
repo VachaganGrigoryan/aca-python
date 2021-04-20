@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}- Movies{% endblock %}
+
+{% block body %}
+<h1>All Movies</h1>
+
+<table>
+    <tr>
+        <th>Movie ID</th>
+        <th>Movie Name</th>
+        <th>Movie Year</th>
+    </tr>
+    {% for id, movie in movies.items() %}
+    <tr>
+        <td>
+            {{ id }}
+        </td>
+        <td>
+            <a href='/movie/{{ id }}'>{{ movie['name'] }}</a>
+        </td>
+        <td>
+            {{ movie['year'] }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
