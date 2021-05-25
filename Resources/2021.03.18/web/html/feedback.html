@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<meta charset="UTF-8">
+		
+		<style>
+		.form-field {
+			margin-bottom: 15px;
+		}
+
+		.form-field label {
+			display: block;
+		}
+		</style>
+	</head>
+
+	<body>
+		<h1>Feedback</h1>
+		<form method="POST">
+			<div class="form-field">
+				<label for="email_inp">EMail</label>
+				<input type="email" id="email_inp" name="email" />
+			</div>
+
+			<div class="form-field">
+				<label for="message_inp">Feedback Message</label>
+				<textarea id="message_inp" name="message"></textarea>
+			</div>
+			
+			<input type="submit" value="Send" />
+		</form>
+	</body>
+</html>

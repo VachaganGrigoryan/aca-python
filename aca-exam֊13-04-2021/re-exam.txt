@@ -1,0 +1,96 @@
+  Անհրաժեշտ է ստեղցել «class» (ResourceReader), որը կտա հնարավորություն ընթերցել
+տվյալներն ինչպես լոկալ ֆայլերից, այնպես էլ URL հասցեներից։ Այն պետք է տրամադրի
+տվյալների ընթերցման (.read()) և ռեսուրսի փակման (.close()) մեթոդներ։ Ստացված
+class-ը պետք է ներառվի մեկ module-ի (resourcereader) մեջ, որը թույլ կտա ինչպես
+import անել այդ class-ն այլ Python module֊ներից, այնպես էլ աշխատացնել այն որպես
+command line application: Class֊ն այլ մոդուլում կիրառելու դեպքում չպետք է աշխատի
+command line-ի հետ կապված ֆունկցիոնալությունը:
+
+
+Պահանջները․
+-----------
+
+* անմիջապես module-ն աշխատացնելուց այն որպես command line argument պետք է պահանջի
+  ֆայլի ճանապարհը կամ URL հասցե,
+
+* պահանջվող class֊ը պետք է համապատասխանի OOP֊ի բոլոր սկբունքներին,
+
+* ստացված class֊ը պետք է տրամադրի օրինակներում բերված ֆունկցիոնալությունը,
+
+* անվավեր ճանապարհի և/կամ URL հասցեի տրամադրման դեպքում պետք է ResourceNotFoundError
+  exception տեղի ունենա,
+
+* ծրագրային կոդը պետք է համապատասխանի PEP-8 ստանդարտին,
+
+* ԱՐԳԵԼՎՈՒՄ Է ԿԻՐԱՌԵԼ ԿՈՂՄՆԱԿԻ՝ Python֊Ի ՍՏԱՆԴԱՐՏ ԳՐԱԴԱՐԱՆՈՒՄ ԲԱՑԱԿԱՅՈՂ, ԳՐԱԴԱՐԱՆՆԵՐ։
+
+
+ԲՈԼՈՐ ՊԱՀԱՆՋՆԵՐԻՆ ԲԱՎԱՐԱՐԵԼԸ ՊԱՐՏԱԴԻՐ Է։ ԹՈՒՅԼԱՏՎՈՒՄ Է ԿԻՐԱՌԵԼ ՄԻԱՅՆ Python-Ի
+ՍՏԱՆԴԱՐՏ ԳՐԱԴԱՐԱՆՈՒՄ ԵՂԱԾ package-ՆԵՐՆ ՈՒ module֊ՆԵՐԸ։
+-----------------------------------------------------------------------------
+
+
+Օրինակներ․
+----------
+
+1) class֊ի` այլ մոդուլից կիրառման օրինակը՝
+
+  ա․ ֆայլի ընտերցման օրինակ․
+
+    >>> from resourcereader import ResourceReader
+    >>>
+    >>> res = ResourceReader('/path/to/file')
+    >>> print(res.read())
+    This is contents of the file
+    >>> res.close()
+
+
+  բ․ URL հասցեից ընթերցման օրինակ․
+
+    >>> from resourcereader import ResourceReader
+    >>>
+    >>> res = ResourceReader('https://aca.am/hy')
+    >>> print(res.read())
+    <!doctype html><html lang="hy">...
+    >>> res.close()
+
+
+  գ․ անվավեր ռեսուրսի ընթերցման օրինակ․
+
+    >>> from resourcereader import ResourceReader
+    >>>
+    >>> res = ResourceReader('non-existing-location')
+    Traceback (most recent call last):
+      File "resourcereader.py", line 27, in <module>
+        res = ResourceReader(location)
+      File "resourcereader.py", line 10, in __init__
+        raise ResourceNotFoundError(location)
+    __main__.ResourceNotFoundError: non-existing-location
+
+
+2) module-ի՝ որպես CLI application աշխատանքի օրինակ․
+
+  ա․ ծրագրի օգնության հրամանի աշխատեցման արդյունքը․
+
+    >>> python3 resourcereader.py -h
+    usage: resourcereader.py [-h] location
+
+    Resource reader
+
+    positional arguments:
+      location    path or URL address of the resource
+
+    optional arguments:
+      -h, --help  show this help message and exit
+
+
+  բ․ անվավեր ռեսուրսի ընթերցման արդյունքը․
+
+    >>> python3 resourcereader.py non-existing-location
+    [ERROR] "non-existing-location" not found
+
+
+  գ․ URL հասցեից ընթերցման արդյունքը․
+
+    >>> python3 resourcereader.py https://aca.am/hy/
+    <!doctype html><html lang="hy">...

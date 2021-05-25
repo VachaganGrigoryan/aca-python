@@ -89,5 +89,5 @@ calculate(expression)
 # calculate("- + 2 3 9")  # Error
 # calculate("2")  # 2
 # calculate("a b")  # Error
-# calculate("+ - * 2 3 3 / / 8 4 + 1 1")  # 2×3−3+8/4/(1+1) = 4
+calculate("+ - * 2 3 3 / / 8 4 + 1 1")  # 2×3−3+8/4/(1+1) = 4
 
